@@ -1,0 +1,1 @@
+Blablakid is an application developed for parents to organize and to take and pick up children (theirs or other parents) from the activities that each one performs. Each parent is assigned several rides according to the schedules of the children's activities.
