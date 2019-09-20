@@ -1,0 +1,36 @@
+A partir del código del TicTacToe, se pide:
+
+1. Compilar el código
+javac -d ./classes/ ./src/es/unileon/prg1/ticTacToe/*.java
+
+2. Generar la documentación
+javadoc -d ./doc -author -version -private -linksource ./src/es/unil
+eon/prg1/ticTacToe/*.java
+
+3. Ejecutar la clase MainTicTacToe
+java -classpath ./classes es.unileon.prg1.ticTacToe.MainTicTacToe
+
+4. Incluir todas las clases en el paquete es.unileon.prg1.ticTacToe
+Listo.
+
+5. Compilar desde el directorio de trabajo
+javac -d ./classes ./src/es/unileon/prg1/ticTacToe/*.java
+
+6. Generar la documentación desde el directorio de trabajo
+javadoc -d ./doc -author -version -private -linksource ./src/es/unileon/prg1/ticTacToe/*.java
+
+7. Ejecutar desde el directorio de trabajo
+java -classpath ./classes es.unileon.prg1.ticTacToe.MainTicTacToe
+
+8. Incluir las imágenes dentro del directorio etc/images y volver a ejecutar la
+aplicación.
+Listo. java -classpath ./classes es.unileon.prg1.ticTacToe.MainTicTacToe
+
+9. Crear un fichero llamado leeme.txt en el directorio de trabajo que incluya los
+comandos utilizados para cada una de las tareas anteriores: compilar, generar la
+documentación y ejecutar la aplicación.
+
+
+10. Comprimir el directorio de trabajo y entregarlo a través de moodle. El archivo
+comprimido deberá tener el siguiente nombre:
+ticTacToe_studentName.zip
