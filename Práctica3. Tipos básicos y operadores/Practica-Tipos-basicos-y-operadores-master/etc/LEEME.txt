@@ -1,0 +1,95 @@
+Practica P-VAR
+
+Alumno: Pedro José Pascual Ruano
+
+Horas dedicadas: 3 horas
+
+Problemas surgidos al realizar la practica: Entendimiento de algun enunciado.
+
+Respuestas a la preguntas:
+
+APARTADO 030101 
+
+	EJERCICIO 04:
+
+		Lo que vemos es el resultado de la resta 2.8 - 1.5 en formato double.
+
+	EJERCICIO 05:
+	
+		Ahora se utiliza BigDecimal para obtener un resultado preciso.
+		
+APARTADO 030104
+	
+	EJERCICIO 02:
+		
+		Los resultados que he obtenido son:
+		
+      	varByte = -72
+      	varShort = -30536
+      	varInt = 35000
+
+      	Esto es porque en un byte hay 8 bits (de -128 a 127)
+      	y en un short hay 16 (de -32768 a 32767)
+      
+    EJERCICIO 04:
+    
+    	 float f = 1.3e22f;   Añado la f para que detecte que es un float.    	
+	     
+	     [java] Gigante: Infinity		Es un numero muy grande y te da infinito directamente
+		 [java] Normal : 35.987656		Te acorta el resultado
+		 [java] Minimo : 0.0			Al ser un numero tan pequeño te da 0
+		 [java] Byte  : -126			Al sobrepasar el valor te da -126. El máximo es 127
+		 [java] Short : -32766			Lo mismo que el byte
+		 [java] Int   : -2147483646		Lo mismo que el byte
+		 [java] f: 1.3E22				
+		 
+APARTADO 030201
+	
+	EJERCICIO 10:
+	
+       public void ejercicio10() {
+         cabecera("10", "");
+         String cadena = "Viaje al Parnaso";
+         String otraCadena = "Viaje al Olimpo";
+      	 //Inicio modificacion
+		 System.out.println(cadena.compareTo(otraCadena));
+         //Fin modificacion
+      }
+		
+	 [java] 
+     [java] 
+     [java] Practica P-VAR
+     [java] 
+     [java] Bloque: Cadenas de caracteres - Clase <<String>>
+     [java] Ejercicio: 10
+     [java] 
+     [java] Descripcion: 
+     [java] 
+     [java] 
+     [java] 1
+
+	 El metodo compareTo(), lo que hace es comparar caracter a caracter en codigo ASCII y lo va 	 restando, y el resultado final es la suma de todas esas restas.
+	 
+	 
+APARTADO 030202
+	
+	EJERCICIO 01:
+	
+		La diferencia entre length y capacity es que capacity te dice cuanto puedes añadir, sin 		embargo length te dice la longitud exacta.
+		
+APARTADO 030203
+	
+	EJERCICIO 01:
+		
+		Al ejecutarlo por primera vez te sale la dirección de memoria de donde está guardado 			alumno. Pero al quitar los comentarios, te imprime ya el toString.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

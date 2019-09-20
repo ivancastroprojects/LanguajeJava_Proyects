@@ -1,0 +1,89 @@
+Practica P-CTL
+
+Alumno: Pedro Jose Pascual Ruano
+
+Horas dedicadas:
+
+Problemas surgidos al realizar la practica:
+
+Respuestas a la preguntas:
+
+APARTADO 030101
+
+	EJERCICIO 04:
+		
+		[java] 
+		[java] 
+		[java] Practica P-CTL
+		[java] 
+		[java] Bloque: Instruccion if
+		[java] Ejercicio: 04
+		[java] 
+		[java] Descripcion: 
+		[java] 
+		[java] 
+		[java] Resultado 2
+		[java] Fin del ejercicio04
+		
+		Solo se imprime la segunda porque es la unica que se cumple. En la primera tienen que 			cumplirse alguna de las dos condiciones y fallan las dos, la de la izquierda falla porque 			ni a ni b son verdaderos. Y en la tercera falla la condicion de la izquierda porque 		n1 no es ni mayor ni igual que n2.
+		
+	EJERCICIO 09:
+	
+		[java] 
+		[java] 
+		[java] Practica P-CTL
+		[java] 
+		[java] Bloque: Instruccion if
+		[java] Ejercicio: 09
+		[java] 
+		[java] Descripcion: 
+		[java] 
+		[java] 
+		[java] N1 y N2 son distintos
+		
+		Sale que son distintos porque compara objetos y no el contenido dentro de ellos.
+		
+	EJERCICIO 10:
+	
+		[java] 
+		[java] 
+		[java] Practica P-CTL
+		[java] 
+		[java] Bloque: Instruccion if
+		[java] Ejercicio: 10
+		[java] 
+		[java] Descripcion: 
+		[java] 
+		[java] 
+		[java] N1 y N2 son distintos
+		[java] N1 y AUX son iguales
+		
+		Pasa lo mismo que el ejercicio anterior. N1 y AUX son iguales porque no son objetos 		distintos.
+		
+		Al implementar el metodo equals() imprime esto por pantalla:
+		
+		[java] 
+		[java] 
+		[java] Practica P-CTL
+		[java] 
+		[java] Bloque: Instruccion if
+		[java] Ejercicio: 10
+		[java] 
+		[java] Descripcion: 
+		[java] 
+		[java] 
+		[java] N1 y N2 son iguales
+		[java] N1 y AUX son iguales
+		[java] N2 y AUX son iguales
+		
+		Ahora sale que todos son iguales porque compara sus valores.
+		
+APARTADO 030102:
+
+		EJERCICIO 03:
+		
+			Los errores que había es que hay que poner n1.getValor() y n2.getValor() para así 				obtener el valor y poder compararlos.
+
+
+
+
