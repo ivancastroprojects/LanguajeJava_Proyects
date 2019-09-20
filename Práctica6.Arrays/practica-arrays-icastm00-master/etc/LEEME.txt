@@ -1,0 +1,23 @@
+Practica P-ARR
+
+Alumno: Iván Castro Martínez
+
+Horas dedicadas: 30
+
+Problemas surgidos al realizar la practica: Ninguno.
+
+Respuestas a la preguntas:
+
+Apartado 030102
+
+ Ejercicio 02: Es debido a que el for empieza en 1 y el array empieza en 0.
+
+Apartado 030202
+
+ Ejericio 01: Es un paso por referencia. "copia" es una copia exacta de "personas", con lo cual si cambias los valores de "personas", cambias el de "copia".
+
+ Ejercicio 02: Es un paso por valor. En este caso a "copia" se le pasa el array "personas" con todos sus valores, pero como nuevo array. Por lo cual el original no será modificado.
+
+ Ejercicio 03: Es un paso por parámetros. La primera impresión de "recibirParametros" se imprime todo correcto (lo que le pasaron por parámetros), y antes de la siguiente impresión modifican la persona de la posición 0 del array.
+
+ Ejercicio 04: Es un paso por parámetros erróneo. El array de personas se iguala a null con lo que recibirParametros no recibirá nada.
